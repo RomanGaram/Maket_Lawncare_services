@@ -40,7 +40,7 @@ header .main_logo {
 header .unknown {
   display: flex;
   flex-shrink: 0;
-  width: 21%;
+  width: 19.5%;
   height: 64px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 59px;
@@ -90,6 +90,7 @@ header input {
 header input:hover {
   background: #48924F;
   color: #FFFFFF;
+  transition: background 0.55s, color 0.55s;
 }
 
 #services {
@@ -98,6 +99,7 @@ header input:hover {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  max-width: 1920px;
 }
 #services .title_s {
   display: flex;
@@ -178,6 +180,7 @@ header input:hover {
 #services input:hover {
   background: #6CB981;
   color: #FFFFFF;
+  transition: background 0.55s, color 0.55s;
 }
 #services .title_aus {
   width: 298px;
@@ -207,6 +210,7 @@ header input:hover {
   align-items: center;
   background: url(../Images/AboutUs_backgraund.png), no-repeat;
   background-size: cover;
+  max-width: 1920px;
 }
 #about_us .boxes {
   display: flex;
@@ -249,6 +253,7 @@ header input:hover {
 #about_us input:hover {
   background: #6CB981;
   color: #FFFFFF;
+  transition: background 0.55s, color 0.55s;
 }
 
 #testymonials {
@@ -257,6 +262,7 @@ header input:hover {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  max-width: 1920px;
 }
 #testymonials .title_tes {
   width: 456px;
@@ -339,6 +345,7 @@ header input:hover {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  max-width: 1920px;
 }
 #contact_us .cu_title {
   margin-bottom: 70px;
@@ -372,7 +379,7 @@ header input:hover {
   border: none;
 }
 #contact_us .cu_wraper .cu_forms input::-moz-placeholder {
-  padding-left: 15px;
+  padding-left: 20px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -381,7 +388,7 @@ header input:hover {
   color: #FFFFFF;
 }
 #contact_us .cu_wraper .cu_forms input::placeholder {
-  padding-left: 15px;
+  padding-left: 20px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -411,10 +418,12 @@ header input:hover {
 #contact_us .cu_wraper .cu_forms input[type=button]:hover {
   background: #6CB981;
   color: #FFFFFF;
+  transition: background 0.55s, color 0.55s;
 }
 
 footer {
   height: 145px;
+  max-width: 1920px;
   background: #324B29;
 }
 

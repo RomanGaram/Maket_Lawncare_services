@@ -1,6 +1,5 @@
 @import './reset';
 
-
 // HEADER SECTION
 
 header{
@@ -21,7 +20,7 @@ header{
     .unknown{
         display: flex;
         flex-shrink: 0;
-        width: 21%;
+        width: 19.5%;
         height: 64px;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 59px;
@@ -71,6 +70,7 @@ header{
         &:hover{
             background: #48924F;
             color: #FFFFFF;
+            transition: background 0.55s, color 0.55s;
         }
 
     }
@@ -84,6 +84,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    max-width: 1920px;
     .title_s{
         display: flex;
         width: 284px;
@@ -162,6 +163,7 @@ header{
         &:hover{
             background: #6CB981;
             color: #FFFFFF;
+            transition: background 0.55s, color 0.55s;
         }
     }
     .title_aus{
@@ -196,6 +198,7 @@ header{
     align-items: center;
     background: url(../Images/AboutUs_backgraund.png), no-repeat;
     background-size: cover;
+    max-width: 1920px;
     .boxes{
         display: flex;
         flex-shrink: 0;
@@ -236,6 +239,7 @@ header{
         &:hover{
             background: #6CB981;
             color: #FFFFFF;
+            transition: background 0.55s, color 0.55s;
         }
     }
 }
@@ -249,6 +253,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 100vw;
+    max-width: 1920px;
     .title_tes{
         width: 456px;
         margin: 70px auto;
@@ -331,6 +336,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    max-width: 1920px;
     .cu_title{
         margin-bottom: 70px;
         h2{
@@ -360,7 +366,7 @@ header{
                 border-radius: 61px;
                 border: none;
                 &::placeholder{
-                    padding-left: 15px;
+                    padding-left: 20px;
                     font-family: 'Poppins';
                     font-style: normal;
                     font-weight: 600;
@@ -390,6 +396,7 @@ header{
                 &:hover{
                     background: #6CB981;
                     color: #FFFFFF;
+                    transition: background 0.55s, color 0.55s;
                 }
             }
         }
@@ -399,6 +406,7 @@ header{
 
 footer{
     height: 145px;
+    max-width: 1920px;
     background: #324B29;
 
 }

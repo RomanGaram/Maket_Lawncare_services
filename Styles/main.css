@@ -362,7 +362,6 @@ header input:hover {
 #contact_us .cu_wraper {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
   width: 788px;
   height: 266px;
   margin-bottom: 64px;
@@ -377,6 +376,13 @@ header input:hover {
   background: #9FDEA9;
   border-radius: 61px;
   border: none;
+  padding-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0D4D14;
 }
 #contact_us .cu_wraper .cu_forms input::-moz-placeholder {
   padding-left: 20px;
@@ -419,6 +425,30 @@ header input:hover {
   background: #6CB981;
   color: #FFFFFF;
   transition: background 0.55s, color 0.55s;
+}
+#contact_us .cu_wraper .cu_data .cu_data_item {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+#contact_us .cu_wraper .cu_data .cu_data_item img {
+  margin-right: 25px;
+}
+#contact_us .cu_wraper .cu_data .cu_data_item a, #contact_us .cu_wraper .cu_data .cu_data_item address {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+#contact_us .cu_wraper .cu_data .cu_data_item p:hover a {
+  text-decoration: none;
+  text-shadow: #6CB981 0px 3px 5px;
+  font-size: 20px;
+}
+#contact_us .cu_wraper .cu_data .cu_data_item.call {
+  margin: 30px 0;
 }
 
 footer {
